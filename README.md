@@ -15,7 +15,7 @@ composer install
 ```
 3) Run key generate.
 ```
-php artisah key:generate
+php artisan key:generate
 ```
 4) Set the basic config.
 ```
