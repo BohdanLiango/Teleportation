@@ -9,17 +9,17 @@
 ```
 git clone https://github.com/BohdanLiango/Teleportation.git
 ```
-2) Run key generate.
+2) Install the Laravel extended repositories.
+```
+composer install
+```
+3) Run key generate.
 ```
 php artisah key:generate
 ```
-3) Set the basic config.
+4) Set the basic config.
 ```
 cp .env.example .env
-```
-4) Install the Laravel extended repositories.
-```
-composer install
 ```
 5) Create database (MariaDB, Mysql).
 6) In file .env change this line to your data.
