@@ -13,13 +13,13 @@ git clone https://github.com/BohdanLiango/Teleportation.git
 ```
 composer install
 ```
-3) Run key generate.
-```
-php artisan key:generate
-```
-4) Set the basic config.
+3) Set the basic config.
 ```
 cp .env.example .env
+```
+4) Run key generate.
+```
+php artisan key:generate
 ```
 5) Create database (MariaDB, Mysql).
 6) In file .env change this line to your data.
